@@ -20,7 +20,7 @@
   },
   "autoload": {
     "psr-4": {
-      "KPMG\\SOAP": "./src/"
+      "KPMG\\": "./src/"
     }
   },
   "version": "1.0.0",
