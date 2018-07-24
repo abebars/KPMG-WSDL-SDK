@@ -1,0 +1,28 @@
+{
+  "name": "abebars/kpmg-client",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ahmed Bebars",
+      "email": "ahmedbebars88@gmail.com"
+    }
+  ],
+  "keywords": [
+    "kpmg client",
+    "kpmg"
+  ],
+  "type": "package",
+  "description": "KPMG 2011 SOAP client generated from wsdltophp/packagegenerator",
+  "require": {
+    "php": ">=5.6.0",
+    "ext-soap": "*",
+    "wsdltophp/packagebase": "~1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "KPMG\\SOAP": "./src/"
+    }
+  },
+  "version": "1.0.0",
+  "minimum-stability": "dev"
+}
